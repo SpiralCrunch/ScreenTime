@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Screen Time</string>
+    <string name="active_service_label">Screen Time active use</string>
+    <string name="active_service_description">Counts screen time only while you are really using the phone: holding it (from the motion sensor) or touching it. It notices that a touch happened, never where or on what, and never reads what is on the screen. Nothing leaves your phone.</string>
+</resources>

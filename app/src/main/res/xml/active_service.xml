@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Taps, long presses and typing only: no scrolls (apps also scroll by themselves) and no window
+  content. canRetrieveWindowContent="false" means the service can't read what is on screen.
+-->
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeViewClicked|typeViewLongClicked|typeViewTextChanged"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:canRetrieveWindowContent="false"
+    android:description="@string/active_service_description"
+    android:isAccessibilityTool="false"
+    android:notificationTimeout="200" />
